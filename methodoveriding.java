@@ -15,9 +15,11 @@
       void relation()
       {
       System.out.println("boyfriend is chilling");
-      }  
+      } 
+      class teddy {
       
-      public static void main(String args[]){  
+      public static void main(String args[])
+      {  
       boyfriend obj = new boyfriend();//creating object  
       obj.relation();//calling method  
       }  
