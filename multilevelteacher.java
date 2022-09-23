@@ -23,10 +23,10 @@ class Teacher3 extends Teacher2{
 	public static void main(String args[])
   {  
 
-		Teacher3 obj=new Teacher3();  
+		Teacher3 A=new Teacher3();  
 		
 		
-      obj.teach1();
-      obj.teach2();
+      A.teach1();
+      A.teach2();
   }   
 }
