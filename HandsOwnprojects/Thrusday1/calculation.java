@@ -12,7 +12,17 @@ class Calculation()
   public static void main(String[] args)
   {
     Scanner sc =new Scanner(System.in);
-    int a= sc.nextInt();
-    System.out.println()
-      int b= sc.nextint();
-    System.out.next
+    
+    System.out.println("Enter the first Number: ")
+      int a= sc.nextInt();
+    System.out.println("Enter the Second number: ")
+      int b=sc.nextInt();
+    int add,sub,divide,mul,mod:
+    
+    
+    System.out.println("press1"+  a+b)
+     System.out.println("press1"+ a*b)
+      System.out.println("press1"+  a/b)
+     System.out.println("press1"+ a-b)
+    }
+}
