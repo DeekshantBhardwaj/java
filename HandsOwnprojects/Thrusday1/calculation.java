@@ -1,3 +1,12 @@
+/*
+Author:Deekshant Bhardwaj
+Date:29 sept 2022
+*/
+
+
+
+
+
 /*  Ques3:Create a program for calculation.read three values from the user for operation
 first and second values as operands.
 third value as operator.
