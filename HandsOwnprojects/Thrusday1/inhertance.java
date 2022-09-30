@@ -10,24 +10,26 @@ class parent
 {
   void sing()//method making
   {
-    System.out.println("i am singing")
+    System.out.println("i am singing");
     }
 }
 class child extends parent()//extends the class with super class
 {
   void speak()//another method
   {
-    System.out.println("i am speak")
+    System.out.println("i am speak");
     }
   void dance()//method
   {
-    System.out.println("i am dancing")
+    System.out.println("i am dancing");
     }
   class main()//main class with calling all the objects
   {
     public static void main(String[] args)
+    {
+     
       //creating a object or calling the above method
-      main d=new main();
+      child d=new child();
     d.sing();//calling the above method
     d.speak();//calling the above method
     d.dance();//calling the above method
