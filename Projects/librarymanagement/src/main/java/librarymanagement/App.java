@@ -23,10 +23,10 @@ package librarymanagement;
 	        // Initialize Session Object
 	        Session session = sessionFactory.openSession();
 	 
-	        LibraryManagement LMS = new LibraryManagement();
+	        LibraryManagement LMS = new LibraryManagement();//LMS is object word which we created withthe help of new keyword...
 	        LibraryManagement LMS1 = new LibraryManagement();
 	        LibraryManagement LMS2 = new LibraryManagement();
-	        
+	        //adding values in the table..by the help of the object
 	        LMS.setId(1);
 	        LMS.setBookname("Angel");
 	        LMS.setPublisher("akrit");
