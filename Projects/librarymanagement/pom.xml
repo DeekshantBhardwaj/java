@@ -3,6 +3,11 @@
   <groupId>com.librarymanagementsystem</groupId>
   <artifactId>librarymanagement</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  /*Here we have add 2 dependencies 
+  First one is my sql connection which is basically use for connecting the database to the jdk file
+  second one hibernate file is also having plays the important role in connecting with database....
+  
+  */
   <dependencies>
         <dependency>
             <groupId>org.hibernate.orm</groupId>
