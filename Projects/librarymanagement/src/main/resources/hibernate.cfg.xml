@@ -4,6 +4,7 @@
         "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
 <hibernate-configuration>
     <session-factory>
+            //this hibernate we have to use the database details like id password and your port number where your database is connecton which port basically...
  
         <!-- Set URL -->
         <property name = "hibernate.connection.url">jdbc:mysql://localhost:3306/house</property>
@@ -12,7 +13,7 @@
         <property name = "hibernate.connection.username">root</property>
  
         <!-- Set Password -->
-        <property name = "hibernate.connection.password">Deek@8320</property>
+        <property name = "hibernate.connection.password">#########</property>//this password is not shown because of the internal privacy..
  
         <!-- Set Driver Name -->
         <property name = "hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
